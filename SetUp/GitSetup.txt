@@ -1,0 +1,2 @@
+Click on the source conrol menu on the sidebar (or press Ctrl+Shift+G).
+Click on publish to github.
