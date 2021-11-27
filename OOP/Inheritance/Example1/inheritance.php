@@ -4,7 +4,7 @@
     </head>
     <body>
         <?php
-            class person{
+            class Person{
     
                 function personMeth($name, $address, $mobNo){
                     $this -> name = $name;
@@ -13,7 +13,7 @@
                 }
             }
 
-            class customer extends person{
+            class CustomerDetails extends Person{
 
                 function setCustomerNo($customerNo){
                     $this -> customerNo = $customerNo;
@@ -32,7 +32,7 @@
                 }
             }
 
-            $obj = new customer;
+            $obj = new CustomerDetails;
             $obj->setCustomerNo(3342);
             $obj->personMeth("ABC","Jamshoro","+123456788**");
             $obj->showMeth();
