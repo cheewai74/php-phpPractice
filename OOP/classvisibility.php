@@ -9,7 +9,7 @@ class Student{
     public $country = "None";
 
     protected $registration_id;
-    private $tuition = 0.00;
+    private $tuition = 500.00;
 
     public function hello_world(){
         return "Hello world";
@@ -25,6 +25,10 @@ class Student{
 
     private function hello_me(){
         return "Hello me";
+    }
+
+    public function tuition_fmt(){
+        return '$' . $this->tuition;
     }
 }
 
@@ -50,7 +54,12 @@ echo $student1->hello_world() . "<br />";
 
  echo $student1->hello_parent() . "<br />";
 
-
-
+// Overloading:
+// 1. Get value of undefined property: notice
+// 2. Set value of undefined property: define and set
+// 3. Private properties may seem to be visible in subclasses
+$student1->tuition = 10000;
+echo $student1->tuition . "<br />";
+echo $student1->tuition_fmt() . "<br />";
 
 ?>
