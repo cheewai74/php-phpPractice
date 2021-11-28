@@ -1,7 +1,5 @@
 <?php
 
-use Student as GlobalStudent;
-
 class Student{
         public static $grades = ['Freshman', 'Sophomore', 'Junior', 'Senior'];
         private static $total_students = 0;
@@ -27,5 +25,25 @@ class Student{
     echo Student::count() . "<br />";
     echo Student::add_student() . "<br />";
     echo Student::count() . "<br />";
+
+    // Static propertises and methods are inherited.
+    class PartTimeStudent extends Student {
+
+    }
+
+    echo PartTimeStudent::$grades[0] . "<br />";
+    echo PartTimeStudent::motto() . "<br />";
+
+    // Changes are shared too.
+    PartTimeStudent::$grades[] = 'Alumni';
+    echo implode(',',Student::$grades);
+
+    Student::add_student() . "<br />";
+    Student::add_student() . "<br />";
+    Student::add_student() . "<br />";
+    PartTimeStudent::add_student() . "<br />";
+
+    echo Student::count() . "<br />";
+    echo PartTimeStudent::count() . "<br />";
 
 ?>

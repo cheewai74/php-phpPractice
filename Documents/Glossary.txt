@@ -1,0 +1,6 @@
+
+I:
+implode:    The implode function is easily remembered as "array of string", 
+            which simply means it takes an array an return as string. It rejoins 
+            any array elements and returns the resulting strings, 
+            which may be put in a variable.
