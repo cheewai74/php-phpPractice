@@ -1,0 +1,28 @@
+https://divpusher.com/blog/how-to-run-laravel-on-windows-with-xampp/
+
+
+Install composer (https://getcomposer.org/)
+composer global require laravel/installer
+cd C:\xampp\htdocs
+laravel new your_project
+ C:\Windows\System32\drivers\etc and open the hosts file
+ 127.0.0.1  laravel.test
+
+ Find the httpd-vhosts.conf file in your Apache’s conf directory, 
+ e.g.: C:\xampp\apache\conf\extra\httpd-vhosts.conf, open it, paste 
+ the following lines and save it.
+
+ <VirtualHost laravel.test:80>
+    DocumentRoot "C:/xampp/htdocs/your_project/public"
+</VirtualHost>
+
+
+http://laravel.test/
+
+
+Lessons:
+https://www.studentstutorial.com/laravel/hello-world
+
+1. At laravel your_project, enter command "php artisan" to list of all 
+   laravel relatated command laravel uses blade templating engine for view Blade 
+   is laravel templating engine
