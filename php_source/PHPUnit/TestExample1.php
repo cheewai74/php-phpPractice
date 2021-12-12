@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-require './vendor/autoload.php';
+require 'php_source\PHPUnit\vendor\autoload.php';
 use PHPUnit\Framework\TestCase;
 
 final class StackTest extends TestCase{
