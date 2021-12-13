@@ -3,3 +3,5 @@ Add a (development-time) dependency on phpunit/phpunit to your project’s compo
 file if you use Composer to manage the dependencies of your project:
 
 composer require --dev phpunit/phpunit ^9.5
+
+PHPUnit Test Explorer VS Code plugin
