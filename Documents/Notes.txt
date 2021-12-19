@@ -9,3 +9,20 @@ https://www.classcentral.com/course/youtube-object-oriented-php-tutorial-45788/c
 https://www.php.net/manual/en/function.date
 
 https://www.geeksforgeeks.org/php-tutorials/?ref=gcse
+
+
+Set Up:
+1. https://www.php.net/downloads.php
+2. Create folder PHP8 in C:
+3. Copy zip to PHP8
+4. Environment Variables: PATH, C:\PHP8
+5. Copy the C:\PHP8\php.ini-development to C:\PHP8\php.ini
+6. php.ini:
+   memory_limit from 128M to 1G
+   Uncomment extension_dir = "ext"
+5. https://getcomposer.org/r.org/
+6. https://dev.mysql.com/downloads/installer/
+7. Click on "Looking for previous GA versions?"
+8. Run the download file
+   Developer default
+9. https://insomnia.rest/download
