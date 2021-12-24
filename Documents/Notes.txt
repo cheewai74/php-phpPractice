@@ -20,6 +20,10 @@ Set Up:
 6. php.ini:
    memory_limit from 128M to 1G
    Uncomment extension_dir = "ext"
+   extension=mysqli
+   extension=pdo_mysql
+   extension=pdo_pgsql
+   extension=pgsql
 5. https://getcomposer.org/r.org/
 6. https://dev.mysql.com/downloads/installer/
 7. Click on "Looking for previous GA versions?"
