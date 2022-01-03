@@ -21,6 +21,7 @@ Set Up:
 6. php.ini:
    memory_limit from 128M to 1G
    Uncomment extension_dir = "ext"
+   extension=intl
    extension=mysqli
    extension=pdo_mysql
    extension=pdo_pgsql
