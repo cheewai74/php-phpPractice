@@ -3,3 +3,8 @@ https://getcomposer.org/download/
 
 composer -v
 composer self-update
+
+composer self-update --1
+composer global require fxp/composer-asset-plugin
+
+composer update --with-all-dependencies
