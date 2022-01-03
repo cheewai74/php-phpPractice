@@ -26,6 +26,10 @@ Set Up:
    extension=pdo_mysql
    extension=pdo_pgsql
    extension=pgsql
+
+   ; https://php.net/date.timezone
+   date.timezone = Asia/Singapore
+   
 5. https://getcomposer.org/r.org/
 6. https://dev.mysql.com/downloads/installer/
 7. Click on "Looking for previous GA versions?"
