@@ -8,3 +8,5 @@ composer self-update --1
 composer global require fxp/composer-asset-plugin
 
 composer update --with-all-dependencies
+
+composer serve

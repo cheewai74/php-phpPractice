@@ -1,0 +1,5 @@
+https://symfony.com/download
+
+php bin\console server:run
+
+localhost:8000

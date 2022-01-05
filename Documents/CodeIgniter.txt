@@ -1,0 +1,9 @@
+https://codeigniter.com/
+
+
+cd #downloaded_codeigniter_folder
+
+php spark serve
+
+http://localhost:8080
+
