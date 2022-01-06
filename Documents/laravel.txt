@@ -20,6 +20,9 @@ laravel new your_project
 http://laravel.test/
 
 
+
+https://laravel.com/
+
 Lessons:
 https://www.studentstutorial.com/laravel/hello-world
 

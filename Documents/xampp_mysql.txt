@@ -1,0 +1,10 @@
+Environment Variables:
+c:\xampp\mysql\bin
+
+XAMPP Control Panel:
+Apache: Click Start
+MySQL: Click Start
+
+Command:
+1. mysql -u root -p
+2. Click ENTER to login without password.
