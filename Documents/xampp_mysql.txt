@@ -1,3 +1,6 @@
+Cheat Sheet:
+https://hackr.io/blog/mysql-cheat-sheet
+
 Environment Variables:
 c:\xampp\mysql\bin
 
