@@ -25,6 +25,7 @@
 
   require_once('functions.php');
   require_once('db_credentials.php');
+  require_once('database_functions.php');
   // Load class definitions manually
 
   // -> Individually
@@ -42,5 +43,7 @@
     }
   }
   spl_autoload_register('my_autoload');
-
+  // $database = new mysqli(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+  $database = db_connect();
+  
 ?>
