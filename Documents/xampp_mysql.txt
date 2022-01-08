@@ -17,6 +17,8 @@ Command:
 1. mysql -u root -p
 2. Click ENTER to login without password.
 
+
+
 MARIA_DB:
 CREATE DATABASE chain_gang;
 SHOW DATABASES;
