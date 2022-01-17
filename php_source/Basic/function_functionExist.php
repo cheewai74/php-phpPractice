@@ -20,8 +20,21 @@
     //echo tagWrap('i', 'make me italic and quote me ', 
     //create_function('$txt', 'return "&quot;$txt&quot;";'));
 
-    echo tagWrap('i', 'make me italic and quote me ', 
-    function(string $txt) {return "&quot;$txt&quot;";});
+    // $func = function(string $txt) {
+    //     return "&quot;$txt&quot;";
+    // };
+
+    // $newfunc = function($a, $b) {
+    //     return "ln($a) + ln($b) = " . log($a * $b);
+    // };
+    
+    // echo $newfunc(2, M_E) . "\n";
+
+
+    $func = function (string $txt) { return "&quot;$txt&quot;";};
+    echo $func('i','make me italic and quote me') . "\n";
+
+    echo tagWrap('i', 'make me italic and quote me ', $func);
     // $func = function (int $x, int $y) {
     //     return $x * $y;
     // };
