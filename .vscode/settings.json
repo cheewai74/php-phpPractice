@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "php.validate.executablePath": "C:/xampp/php/php.exe"
 }
