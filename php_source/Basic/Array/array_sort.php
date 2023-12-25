@@ -15,5 +15,21 @@ function convert_multi_array($array) {
     print_r($out);
 };
 
+function mysort1($x,$y){
+    return ($x['Key1'] > $y['Key1']);
+}
+
 convert_multi_array($a);
+
+// The usort function sorts by values and does not maintain the keys.
+usort($a, 'mysort1');
+
+function mysort2($x,$y){
+    return strcasecmp($x['Key2'] , $y['Key2']);
+}
+
+// uasort, the keys would be maintained
+// uksort, the sort would be based upon the keys
+usort($a, 'mysort2');
+
 ?>
